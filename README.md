@@ -2,7 +2,7 @@
 Patch to remove seed generation from the Gen 3 Kanto Games
 
 ## Reasoning
-Pokemon Fire Red & Leaf Green have notoriously difficult RNG Manipulation. That's because it starts it's seed generation using a very fast timer
+Pokemon Fire Red & Leaf Green have notoriously difficult RNG Manipulation. That's because it starts its seed generation using a very fast timer
 
 ```
 void SeedRngAndSetTrainerId(void)
