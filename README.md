@@ -49,7 +49,7 @@ Using a decompiler like Ghidra or by compiling the repository at https://github.
         08079264 00 20           movs       r0,#0x0
         08079266 61 f0 49 f9     bl         LoadGameSave
 ```
-We need to replace these bytes with NOP calls. But, we have to be careful about being in either THUMB or ARM mode. In this case, we'll be in THUMB mode. So, we'll have to replace as seen here:
+We need to replace these bytes with NOP calls. But, we have to be careful about being in either THUMB or ARM mode. In this case, we'll be in THUMB mode. So, we'll replace things like this:
 
 ```
         08079252 28 d1           bne        gPaletteFade_active_notZero
