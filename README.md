@@ -71,6 +71,12 @@ And just like that, our patch is done! Unless...
 ## Future: Thumim
 More on this soon...hopefully. Assuming I ever get it to work...
 
+# Notes
+## Usage
+Due to the way the code works, it is not possible to have a seed of zero when starting a new game. Doing so would mangle the Trainer ID and Secret ID in ways I have yet to work around. But, once your save file is set up, every time you start the game, your seed will start at 0.
+
+Tutorial Video Coming Soon.
+
 ## Title Screen
 Since this is a modification that could be used to try to gain an advantage in things such as speedruns, the Title Screen has been modified in an attempt to thwart such things. It's not the best looking, but it's enough to be seen.
 
