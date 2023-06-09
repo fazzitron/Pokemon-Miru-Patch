@@ -1,0 +1,1 @@
+Patches for Fire Red
