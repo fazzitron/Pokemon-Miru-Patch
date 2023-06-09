@@ -64,14 +64,7 @@ We need to replace these bytes with NOP calls. But, we have to be careful about 
         08079266 61 f0 49 f9     bl         LoadGameSave
 ```
 
-Now our patch works! It does mean that REG_TM1CNT timer never gets stopped, but that can be fixed by altering the code so it never starts to begin with:
-
-```
-void StartTimer1(void)
-{
-    REG_TM1CNT_H = 0x80;    <-- Change this to 0x00
-}
-```
+Now our patch works! It does mean that REG_TM1CNT timer never gets stopped. But, that's hard to fix without either inserting custom code or breaking the Trainer ID.
 
 And just like that, our patch is done! Unless...
 
