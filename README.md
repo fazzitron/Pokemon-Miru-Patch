@@ -71,6 +71,9 @@ And just like that, our patch is done! Unless...
 ## Future: Thumim
 More on this soon...hopefully. Assuming I ever get it to work...
 
+## Title Screen
+Since this is a modification that could be used to try to gain an advantage in things such as speedruns, the Title Screen has been modified in an attempt to thwart such things. It's not the best looking, but it's enough to be seen.
+
 ## Tools Used
 * [Pokemon Fire Red Decompilation](https://github.com/pret/pokefirered)
 * [pokemonrng.com](https://pokemonrng.com)
