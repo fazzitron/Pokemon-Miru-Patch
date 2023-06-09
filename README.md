@@ -73,7 +73,7 @@ More on this soon...hopefully. Assuming I ever get it to work...
 
 # Notes
 ## Usage
-Due to the way the code works, it is not possible to have a seed of zero when starting a new game. Doing so would mangle the Trainer ID and Secret ID in ways I have yet to work around. But, once your save file is set up, every time you start the game, your seed will start at 0.
+Due to the way the code works, it is not possible to have a seed of zero when starting a new game. Doing so would mangle the Trainer ID and Secret ID in ways I have yet to work around. But, once your save file is set up, every time you start the game, your seed will start at 0. Because of that, this will not make it any easier to seed for a specific TID or SID.
 
 Tutorial Video Coming Soon.
 
